@@ -1,0 +1,31 @@
+.stress-page {
+    background: linear-gradient(to right, #eadced, #dc54e6);
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .charts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .chart-box {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .chart-box:hover {
+    transform: scale(1.02);
+  }
+  

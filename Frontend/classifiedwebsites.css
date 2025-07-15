@@ -1,0 +1,46 @@
+/* Gradient background for the whole page */
+.classified-websites {
+    background: linear-gradient(135deg, #f0f8ff, #e0ffff);
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the website list container */
+  .website-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  /* Hover effect for website items */
+  .website-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for website categories */
+  .category {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for website links */
+  .url a {
+    color: #3ac257; /* Green link color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for links */
+  .url a:hover {
+    color: #1a7f32;  /* Darker shade of green */
+    text-decoration: underline;
+  }
+  
